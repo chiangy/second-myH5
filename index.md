@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 欢迎做一个新网页
 
 You can use the [editor on GitHub](https://github.com/chiangy/second-myH5/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
