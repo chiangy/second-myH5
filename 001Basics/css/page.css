@@ -3,6 +3,7 @@ html,body,page{
     width:100%;
     margin:0;
 }
+
 page{
     height:100%;
     font-size:180px;
@@ -12,19 +13,33 @@ page{
 }
 #c{
     background-color:lightgreen;
-    animation:c 10s infinite;
+    animation:c 12;
 }
 #x{
     background-color:red;
-    animation:x 10s infinite;
+    animation:x 12 ;
 }
 #q{
-    animation: q 10s infinite;
+    background-image:url('../images/catminisize.png');
+    background-size:100%;
+    animation: q 12 ;
 }
 #d{
     background-color:black;
     color:white;
-    animation: d 10s infinite;
+    animation: d 12 ;
+}
+#dong2{
+    font-size:36px;
+    display:block;
+    animation: dong2 12 ;
+}
+@keyframes dong2{
+    0%{opacity:0}
+    70%{opacity:0}
+    80%{opacity:100}
+    90%{opacity:0}
+    100%{opacity:0}
 }
 @keyframes c{
     0%{opacity:0}
