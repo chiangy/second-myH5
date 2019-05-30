@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/page.css"/>
+
+    <script>
+        function audioAutoPlay(id){
+            var audio = document.getElementById(id);
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady", function(){
+                audio.play();
+            },false);
+            document.addEventListener("YixinJSBridgeReady", function(){
+                audio.play();
+            },false);
+        }
+    </script>
+</head>
+<body onload="audioAutoPlay('bgm');">
+<audio id="bgm" src = "wav/catbgm.wav" preload="auto" autoplay="autoplay" ></audio>
+
+<page id="c">春</page>
+<page id="x">夏</page>
+<page id="q">秋</page>
+<page id="d">冬
+    <span id="dong2">
+        冬去春来
+    </span>
+</page>
+
+</body>
+</html> 
